@@ -1,0 +1,20 @@
+# Déploiement sur Render : New + → Blueprint → choisir ce dépôt GitHub.
+# Pas de base externe : la démo utilise SQLite, recréée avec les données d'exemple à chaque démarrage.
+services:
+  - type: web
+    name: autoprestige
+    runtime: docker
+    plan: free
+    region: frankfurt
+    healthCheckPath: /up
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: "false"
+      - key: APP_LOCALE
+        value: fr
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: ADMIN_PASSWORD
+        sync: false

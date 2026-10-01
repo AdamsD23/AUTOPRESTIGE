@@ -1,0 +1,55 @@
+<?php
+
+// Messages de validation en français (règles utilisées dans l'application)
+return [
+    'accepted' => 'Le champ :attribute doit être accepté.',
+    'after' => 'La date :attribute doit être postérieure au :date.',
+    'after_or_equal' => 'La date :attribute doit être postérieure ou égale au :date.',
+    'before_or_equal' => 'La date :attribute doit être antérieure ou égale au :date.',
+    'boolean' => 'Le champ :attribute doit être vrai ou faux.',
+    'confirmed' => 'La confirmation du champ :attribute ne correspond pas.',
+    'current_password' => 'Le mot de passe est incorrect.',
+    'date' => 'Le champ :attribute n\'est pas une date valide.',
+    'email' => 'Le champ :attribute doit être une adresse email valide.',
+    'exists' => 'La valeur sélectionnée pour :attribute est invalide.',
+    'in' => 'La valeur sélectionnée pour :attribute est invalide.',
+    'integer' => 'Le champ :attribute doit être un nombre entier.',
+    'lowercase' => 'Le champ :attribute doit être en minuscules.',
+    'max' => [
+        'numeric' => 'Le champ :attribute ne peut pas dépasser :max.',
+        'string' => 'Le champ :attribute ne peut pas dépasser :max caractères.',
+    ],
+    'min' => [
+        'numeric' => 'Le champ :attribute doit être au moins :min.',
+        'string' => 'Le champ :attribute doit contenir au moins :min caractères.',
+    ],
+    'regex' => 'Le format du champ :attribute est invalide.',
+    'required' => 'Le champ :attribute est obligatoire.',
+    'required_if' => 'Le champ :attribute est obligatoire.',
+    'string' => 'Le champ :attribute doit être un texte.',
+    'unique' => 'Ce :attribute est déjà utilisé.',
+    'password' => [
+        'letters' => 'Le mot de passe doit contenir au moins une lettre.',
+        'mixed' => 'Le mot de passe doit contenir des majuscules et des minuscules.',
+        'numbers' => 'Le mot de passe doit contenir au moins un chiffre.',
+        'symbols' => 'Le mot de passe doit contenir au moins un symbole.',
+        'uncompromised' => 'Ce mot de passe est apparu dans une fuite de données. Choisissez-en un autre.',
+    ],
+
+    'attributes' => [
+        'prenom' => 'prénom',
+        'nom' => 'nom',
+        'email' => 'email',
+        'telephone' => 'téléphone',
+        'password' => 'mot de passe',
+        'date_debut' => 'de départ',
+        'date_fin' => 'de retour',
+        'debut' => 'de départ',
+        'fin' => 'de retour',
+        'lieu_prise_en_charge' => 'lieu de prise en charge',
+        'adresse_livraison' => 'adresse de livraison',
+        'mode_paiement' => 'mode de paiement',
+        'sujet' => 'sujet',
+        'message' => 'message',
+    ],
+];
